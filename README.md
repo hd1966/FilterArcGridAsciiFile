@@ -4,7 +4,9 @@ Usage:
 
  CalculateVertex modelLoader = new CalculateVertex ();
  
- String mError= modelLoader.calculateAllData( resourceID,context,SizeofVertexData) // 
+ String mError= modelLoader.calculateAllData( resourceID,context,SizeofVertexData) 
+ 
+ // size of vertexdata = 10 (vertex positions + normal coordinates + texture coordinates)
  
  if(mError.equals("None")) {//valid format of esri grid ascii file
  
