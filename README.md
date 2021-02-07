@@ -1,6 +1,5 @@
 # FilterArcGridAsciiFile
 Build float[] with vertex positions, normal coordinates and texture coordinates
-
 Usage: 
  CalculateVertex modelLoader = new CalculateVertex ();
  String mError= modelLoader.calculateAllData( resourceID,context,SizeofVertexData) // 
