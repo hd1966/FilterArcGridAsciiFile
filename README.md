@@ -14,3 +14,10 @@ Usage:
          
          float[] mVerticesData = modelLoader.getAllVerticesData();
             ...
+To use library in android project add depedency i build.gradle (app level)
+
+implementation 'com.github.hd1966:FilterArcGridAsciiFile:0.1.0'
+
+and add repository in build.gradle (Project level)
+ 
+  maven { url 'https://jitpack.io' }
