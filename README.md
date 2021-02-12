@@ -13,7 +13,9 @@ Usage:
          //if there is not been error load all vertices data (vertex position , normal coordinates, texture coordinates) 
          
          float[] mVerticesData = modelLoader.getAllVerticesData();
-            ...
+         // different attributes in arc grid ascii file can be retrieved  - for example number columns - nCols see below 
+        modelLoader.getFl().getAgc().getnCols()...
+           ...
 To use library in android project add depedency i build.gradle (app level)
 
 implementation 'com.github.hd1966:FilterArcGridAsciiFile:0.1.0'
